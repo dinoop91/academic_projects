@@ -1,0 +1,51 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="masterorg" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Metamorphosis Design Free Css Templates</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="content">
+<div id="back">
+<!-- header begins -->
+<div id="header"> 
+  <div id="logo">
+		<h1 style="color: #FF0000; font-style: italic">MOBILE SERVICE MANAGEMENT</h1>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="homepage.aspx"  title="">Home</a></li>
+			<li><a href="registration.aspx" title="">Register</a></li>
+			<li><a href="login.aspx" title="">Login</a></li>
+			<li><a href="#" title="">About</a></li>
+			<li><a href="#" title="">Contact</a></li>
+		</ul>
+	</div>
+</div>
+<!-- header ends -->
+<!-- content begins -->
+
+
+		<div style="clear: both"></div>
+</div>
+
+</div>
+<!-- footer ends-->
+    <form id="form1" runat="server">
+
+    
+	<div id="bottom" style="clear: both;"> <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+     <p style="background-color: #FFFFFF">
+         <br />
+     </p>
+    </asp:ContentPlaceHolder></form>
+</body>
+</html>

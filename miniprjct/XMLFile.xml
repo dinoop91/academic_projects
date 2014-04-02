@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>image/sony-ericsson-cedar.jpg</ImageUrl>
+    <NavigateUrl>admin_login.aspx</NavigateUrl>
+    <AlternateText> Main</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>Product1</Keyword>
+  </Ad>
+  </Advertisements>
